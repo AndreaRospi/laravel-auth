@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <h3>Benvenuto {{ Auth::user()->name }}</h3>
+                    <h3>Benvenuto! {{ Auth::user()->name }} 😁</h3>
 
                     <p><a href="{{route('posts.index')}}">Guarda gli altri post</a> </p>
                 </div>
